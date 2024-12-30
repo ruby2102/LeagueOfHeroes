@@ -1,0 +1,136 @@
+/* Estilos gerais da página */
+.dashboard {
+    background-color: #121212;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título */
+.dashboardTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/* Links de navegação */
+.navLink {
+    margin: 20px 0;
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navLink:hover {
+    background-color: #0056b3;
+}
+
+/* Tabela */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+.table th, .table td {
+    text-align: center;
+    padding: 12px 15px;
+}
+
+.table th {
+    background-color: #444;
+    font-size: 1.2rem;
+}
+
+.table tr:nth-child(even) {
+    background-color: #333;
+}
+
+.table tr:hover {
+    background-color: #555;
+}
+
+/* Estilos dos botões */
+.button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.deleteBtn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.deleteBtn:hover {
+    background-color: #c82333;
+}
+
+.favoriteBtn {
+    background-color: #f39c12;
+    color: white;
+}
+
+.favoriteBtn:hover {
+    background-color: #e67e22;
+}
+
+.editBtn {
+    background-color: #3498db;
+    color: white;
+}
+
+.editBtn:hover {
+    background-color: #2980b9;
+}
+
+/* Botão de adicionar hero */
+.addHeroBtn {
+    background-color: #28a745;
+    color: white;
+    display: inline-block;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin: 50px 0;
+
+}
+
+.addHeroBtn:hover {
+    background-color: #218838;
+}
+
+/* Mensagem sem heróis */
+.noHeroes {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #e67e22;
+    margin-top: 30px;
+}
+.addHeroBtn {
+    background-color: #28a745;
+    color: white;
+    display: inline-block;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Mantém o hover */
+.addHeroBtn:hover {
+    background-color: #218838;
+}

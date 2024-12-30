@@ -1,0 +1,27 @@
+.page {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+.heroes {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.hero {
+  background-color: black;
+  text-align: center;
+}
+
+.hero img {
+  background-color: black;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

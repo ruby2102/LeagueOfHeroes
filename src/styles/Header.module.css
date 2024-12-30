@@ -1,0 +1,19 @@
+/* src/styles/Header.module.css */
+.header {
+    background-color: #282c34;
+    padding: 20px;
+}
+
+.navList {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navList li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
